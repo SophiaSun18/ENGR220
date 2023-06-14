@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab02/part B/part2.bdf
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab02/part B/Waveform.vwf
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab02/part B/db/part2.cbx.xml
+design_name = part2
+instance = comp, \A~I , A, part2, 1
+instance = comp, \B~I , B, part2, 1
+instance = comp, \C~I , C, part2, 1
+instance = comp, \inst8~6 , inst8~6, part2, 1
+instance = comp, \inst8~9 , inst8~9, part2, 1
+instance = comp, \D~I , D, part2, 1
+instance = comp, \SimpD~I , SimpD, part2, 1

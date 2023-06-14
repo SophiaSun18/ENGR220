@@ -1,0 +1,150 @@
+$comment
+	File created using the following command:
+		vcd file part2.msim.vcd -direction
+$end
+$date
+	Wed Sep 07 21:23:20 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module part2_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var wire 1 $ D $end
+$var wire 1 % SimpD $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var wire 1 * A~dataout $end
+$var wire 1 + B~dataout $end
+$var wire 1 , C~dataout $end
+$var wire 1 - inst8~6_dataout $end
+$var wire 1 . inst8~9_dataout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+x&
+0'
+1(
+x)
+0*
+0+
+0,
+0-
+0.
+$end
+#120000
+1#
+1,
+0&
+#160000
+0#
+0,
+1&
+#200000
+1"
+1+
+0&
+#240000
+0"
+0+
+1&
+#280000
+1#
+1"
+1,
+1+
+0&
+#320000
+0#
+0"
+0,
+0+
+1&
+#360000
+1!
+1*
+0&
+1.
+1-
+1%
+1$
+#400000
+0!
+0*
+1&
+0.
+0-
+0%
+0$
+#440000
+1#
+1!
+1,
+1*
+0&
+#480000
+0#
+0!
+0,
+0*
+1&
+#520000
+1"
+1!
+1+
+1*
+0&
+1.
+1-
+1%
+1$
+#560000
+0"
+0!
+0+
+0*
+1&
+0.
+0-
+0%
+0$
+#600000
+1#
+1"
+1!
+1,
+1+
+1*
+0&
+1.
+1-
+1%
+1$
+#640000
+0#
+0"
+0!
+0,
+0+
+0*
+1&
+0.
+0-
+0%
+0$
+#1000000

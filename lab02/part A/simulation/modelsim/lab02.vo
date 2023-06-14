@@ -1,0 +1,156 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "09/07/2022 20:07:30"
+
+// 
+// Device: Altera EPM7064SLC44-10 Package PLCC44
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module lab02 (
+	output_1,
+	input_3,
+	input_4,
+	input_1,
+	input_2);
+output 	output_1;
+input 	input_3;
+input 	input_4;
+input 	input_1;
+input 	input_2;
+
+// Design Ports Information
+// input_3	=>  Location: PIN_41
+// input_4	=>  Location: PIN_4
+// input_1	=>  Location: PIN_40
+// input_2	=>  Location: PIN_14
+// output_1	=>  Location: PIN_12
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \input_3~dataout ;
+wire \input_4~dataout ;
+wire \input_1~dataout ;
+wire \input_2~dataout ;
+wire \inst3~2_dataout ;
+
+
+// Location: PIN_41
+max_io \input_3~I (
+	.datain(gnd),
+	.oe(gnd),
+	.dataout(\input_3~dataout ),
+	.padio(input_3));
+// synopsys translate_off
+defparam \input_3~I .bus_hold = "false";
+defparam \input_3~I .open_drain_output = "false";
+defparam \input_3~I .operation_mode = "input";
+defparam \input_3~I .weak_pull_up = "false";
+// synopsys translate_on
+
+// Location: PIN_4
+max_io \input_4~I (
+	.datain(gnd),
+	.oe(gnd),
+	.dataout(\input_4~dataout ),
+	.padio(input_4));
+// synopsys translate_off
+defparam \input_4~I .bus_hold = "false";
+defparam \input_4~I .open_drain_output = "false";
+defparam \input_4~I .operation_mode = "input";
+defparam \input_4~I .weak_pull_up = "false";
+// synopsys translate_on
+
+// Location: PIN_40
+max_io \input_1~I (
+	.datain(gnd),
+	.oe(gnd),
+	.dataout(\input_1~dataout ),
+	.padio(input_1));
+// synopsys translate_off
+defparam \input_1~I .bus_hold = "false";
+defparam \input_1~I .open_drain_output = "false";
+defparam \input_1~I .operation_mode = "input";
+defparam \input_1~I .weak_pull_up = "false";
+// synopsys translate_on
+
+// Location: PIN_14
+max_io \input_2~I (
+	.datain(gnd),
+	.oe(gnd),
+	.dataout(\input_2~dataout ),
+	.padio(input_2));
+// synopsys translate_off
+defparam \input_2~I .bus_hold = "false";
+defparam \input_2~I .open_drain_output = "false";
+defparam \input_2~I .operation_mode = "input";
+defparam \input_2~I .weak_pull_up = "false";
+// synopsys translate_on
+
+// Location: LC1
+max_mcell \inst3~2 (
+	.clk(gnd),
+	.aclr(gnd),
+	.pexpin(gnd),
+	.fpin(vcc),
+	.pterm0({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pterm1({vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,\input_4~dataout ,\input_3~dataout }),
+	.pterm2({vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,\input_2~dataout ,\input_1~dataout }),
+	.pterm3({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pterm4({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pterm5({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pxor({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pclk({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.pena({vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc,vcc}),
+	.paclr({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.papre({gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd,gnd}),
+	.dataout(\inst3~2_dataout ),
+	.pexpout());
+// synopsys translate_off
+defparam \inst3~2 .operation_mode = "normal";
+defparam \inst3~2 .output_mode = "comb";
+defparam \inst3~2 .pexp_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_12
+max_io \output_1~I (
+	.datain(\inst3~2_dataout ),
+	.oe(vcc),
+	.dataout(),
+	.padio(output_1));
+// synopsys translate_off
+defparam \output_1~I .bus_hold = "false";
+defparam \output_1~I .open_drain_output = "false";
+defparam \output_1~I .operation_mode = "output";
+defparam \output_1~I .weak_pull_up = "false";
+// synopsys translate_on
+
+endmodule

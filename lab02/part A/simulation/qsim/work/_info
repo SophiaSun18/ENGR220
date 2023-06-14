@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\zs35\Desktop\OneDrive - Calvin University\ENGR220L\lab02\simulation\qsim
+vlab02
+Z1 I9Anm@0T8lK^ODelkVjm?X2
+Z2 VV;hj^fXhBl;0@Nzj8VGoa1
+Z3 dC:\Users\zs35\Desktop\OneDrive - Calvin University\ENGR220L\lab02\simulation\qsim
+Z4 w1662594814
+Z5 8lab02.vo
+Z6 Flab02.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|lab02.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 Vm1fVPI8U9B34cYhPQzWa1
+!s85 0
+Z11 !s108 1662594815.090000
+Z12 !s107 lab02.vo|
+!s101 -O0
+vlab02_vlg_check_tst
+!i10b 1
+!s100 OYKczGfAGhiTo9BYiFa]V0
+ILS;9dCNzaWEc9TB51lIW`3
+VANK3EX0GeUI_86j_MYkO40
+R3
+Z13 w1662594813
+Z14 8lab02.vt
+Z15 Flab02.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1662594815.166000
+Z17 !s107 lab02.vt|
+Z18 !s90 -work|work|lab02.vt|
+!s101 -O0
+R9
+vlab02_vlg_sample_tst
+!i10b 1
+!s100 fPQDL]abZF50[[;AYNj3U1
+I3ladMe_0jem`bGOn=]23B2
+VAX=[=]R6A]bO77U^`R6b12
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vlab02_vlg_vec_tst
+!i10b 1
+!s100 cBT>fODob2;PXI6Dik]GK1
+ISn2kmSR?S<l0amGOB9T[K3
+Z19 VQ9NmK65Lj@9P4UR3Qn2dX1
+R3
+R13
+R14
+R15
+L0 158
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9

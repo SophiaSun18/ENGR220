@@ -1,0 +1,9 @@
+Fitter Status : Successful - Fri Sep 16 18:39:17 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : lab03
+Top-level Entity Name : lab03
+Family : MAX7000S
+Device : EPM7064SLC44-10
+Timing Models : Final
+Total macrocells : 8 / 64 ( 13 % )
+Total pins : 14 / 36 ( 39 % )

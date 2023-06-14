@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab04/lab04.bdf
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab04/Waveform.vwf
+source_file = 1, C:/Users/zs35/Desktop/OneDrive - Calvin University/ENGR220L/lab04/db/lab04.cbx.xml
+design_name = lab04
+instance = comp, \Clock~I , Clock, lab04, 1
+instance = comp, \Reset~I , Reset, lab04, 1
+instance = comp, \REQ1~I , REQ1, lab04, 1
+instance = comp, \REQ0~I , REQ0, lab04, 1
+instance = comp, \OUT_GNT0~I , OUT_GNT0, lab04, 1
+instance = comp, \OUT_GNT1~I , OUT_GNT1, lab04, 1
